@@ -3,4 +3,12 @@
     <string name="hesapla">Hesapla</string>
     <string name="desi">Desi</string>
     <string name="fiyat">Fiyatı</string>
+    <string name="boyu">Boyu</string>
+    <string name="_000">000</string>
+    <string name="eni">Eni</string>
+    <string name="kal_nl">Kalınlığı</string>
+    <string name="desi_hesaplama">Desi Hesaplama</string>
+    <string name="copyright_burake_t_m_haklar_sakl_d_r">Copyright © BurakE. Tüm hakları saklıdır.</string>
+    <string name="desi_hesapla">Desi Hesapla</string>
+    <string name="fiyat_hesapla">Fiyat Hesapla</string>
 </resources>
