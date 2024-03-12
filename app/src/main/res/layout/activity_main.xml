@@ -73,7 +73,6 @@
         android:text="@string/desi_hesapla"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="@+id/price"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -126,13 +125,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="221dp"
+        android:layout_width="211dp"
         android:layout_height="48dp"
         android:layout_marginBottom="92dp"
         android:backgroundTint="#222831"
         android:text="@string/fiyat_hesapla"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
