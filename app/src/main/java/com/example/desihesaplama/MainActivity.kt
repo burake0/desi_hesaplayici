@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             val height = heightEditText.text.toString().toIntOrNull() ?: 0
             val desiHeader = "Desi Sonucu"
 
-            result = (thickness * width * height)
+            result = (thickness * width * height) / 100
             showAlertDialog(desiHeader, result)
         }
 
