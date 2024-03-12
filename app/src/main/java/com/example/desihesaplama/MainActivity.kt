@@ -7,7 +7,6 @@ import android.content.DialogInterface
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -60,9 +59,9 @@ class MainActivity : AppCompatActivity() {
             .setCancelable(false)
         val dialog = dialogBuilder.create()
         dialog.setOnShowListener {
-            val positiveButton = (dialog as AlertDialog).getButton(DialogInterface.BUTTON_POSITIVE)
-            positiveButton.setTextColor(ContextCompat.getColor(this, R.color.white)) // Beyaz metin rengi
-            positiveButton.setBackgroundColor(ContextCompat.getColor(this, R.color.black)) // Siyah arka plan rengi
+            val positiveButton = (dialog).getButton(DialogInterface.BUTTON_POSITIVE)
+            positiveButton.setTextColor(ContextCompat.getColor(this, R.color.white))
+            positiveButton.setBackgroundColor(ContextCompat.getColor(this, R.color.black))
         }
         dialog.show()
 
